@@ -1,0 +1,24 @@
+[submodule "august-plugin-system"]
+	path = august-plugin-system
+	url = https://github.com/BleynChannel/august-plugin-system.git
+	branch = master
+[submodule "august-core"]
+	path = august-core
+	url = https://github.com/BleynChannel/august-core.git
+	branch = master
+[submodule "august-cli"]
+	path = august-cli
+	url = https://github.com/BleynChannel/august-cli.git
+	branch = master
+[submodule "august-app"]
+	path = august-app
+	url = https://github.com/BleynChannel/august-app.git
+	branch = master
+[submodule "managers/august-native-manager"]
+	path = managers/august-native-manager
+	url = https://github.com/BleynChannel/august-native-manager.git
+	branch = master
+[submodule "managers/august-wasm-manager"]
+	path = managers/august-wasm-manager
+	url = https://github.com/BleynChannel/august-wasm-manager.git
+	branch = master
