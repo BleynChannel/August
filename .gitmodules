@@ -1,6 +1,14 @@
-[submodule "august-plugin-system"]
-	path = august-plugin-system
-	url = https://github.com/BleynChannel/august-plugin-system.git
+[submodule "plux-rs"]
+	path = plux-rs
+	url = https://github.com/BleynChannel/plux-rs.git
+	branch = master
+[submodule "managers/plux-native-manager"]
+	path = managers/plux-native-manager
+	url = https://github.com/BleynChannel/plux-native-manager.git
+	branch = master
+[submodule "managers/plux-wasm-manager"]
+	path = managers/plux-wasm-manager
+	url = https://github.com/BleynChannel/plux-wasm-manager.git
 	branch = master
 [submodule "august-core"]
 	path = august-core
