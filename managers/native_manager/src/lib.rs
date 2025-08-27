@@ -12,6 +12,4 @@ pub use function::*;
 mod ffi;
 
 #[cfg(feature = "derive")]
-extern crate native_manager_codegen;
-#[cfg(feature = "derive")]
-pub mod native_manager_codegen;
+pub use native_manager_codegen::*;

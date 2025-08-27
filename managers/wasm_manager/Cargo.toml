@@ -1,9 +1,10 @@
 [package]
-name = "wasm_manager"
+name = "wasm-manager"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
-august_plugin_system = { path = "../../august_plugin_system" }
+[dependencies.august-plugin-system]
+git = "https://github.com/BleynChannel/august-plugin-system.git"
+branch = "master"

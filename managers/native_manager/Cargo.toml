@@ -1,21 +1,24 @@
 [package]
-name = "native_manager"
+name = "native-manager"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-august_plugin_system = { path = "../../august_plugin_system" }
-native_manager_codegen = { path = "codegen", optional = true }
-libloading = "0.8.1"
-semver = "1.0.21"
-serde = "1.0.196"
-thiserror = "1.0.56"
-toml = "0.8.8"
+native-manager-codegen = { path = "codegen", optional = true }
+libloading = "0.8.8"
+semver = "1.0.26"
+serde = "1.0.219"
+thiserror = "2.0.16"
+toml = "0.9.5"
 
-[dev_dependencies]
-native_manager_codegen = { path = "codegen" }
+[dependencies.august-plugin-system]
+git = "https://github.com/BleynChannel/august-plugin-system.git"
+branch = "master"
+
+[dev-dependencies]
+native-manager-codegen = { path = "codegen" }
 
 [features]
-derive = ["dep:native_manager_codegen"]
+derive = ["dep:native-manager-codegen"]
