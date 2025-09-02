@@ -6,6 +6,10 @@
 	path = managers/plux-native-manager
 	url = https://github.com/BleynChannel/plux-native-manager.git
 	branch = master
+[submodule "managers/plux-lua-manager"]
+	path = managers/plux-lua-manager
+	url = https://github.com/BleynChannel/plux-lua-manager.git
+	branch = master
 [submodule "managers/plux-wasm-manager"]
 	path = managers/plux-wasm-manager
 	url = https://github.com/BleynChannel/plux-wasm-manager.git
